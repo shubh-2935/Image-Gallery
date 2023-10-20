@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+:root {
+  --background-color-light: #f5f5f5;
+  --text-color-light: #333;
+  --background-color-dark: #232323;
+  --text-color-dark: #fff;
+}
+
+.dark-mode {
+  background-color: var(--background-color-dark);
+  color: var(--text-color-dark);
+}
+
+.light-mode {
+  background-color: var(--background-color-light);
+  color: var(--text-color-light);
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.ImageGallery {
+  font-size: 35px;
+  /* font-weight: 500;? */
+  font-weight: bold;
+  font-family: Pattaya;
+  margin-right: 15%;
+  margin-left: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.backgroundImage {
+  width: 100%;
+  height: 20rem;
+}
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  padding: 10px 0;
+}
+.headerList {
+  list-style-type: none;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.headerList li {
+  display: inline;
+  margin-right: 10px;
+  margin-right: 10%;
+}
+.App {
+  width: 100%;
+}
+
+.MuiSkeleton-rounded {
+  margin-bottom: 50px;
+  margin-right: 50px;
+}
+.searchResults {
+  display: flex;
+  text-align: left;
+  font-size: 1.5rem;
+  margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Pattaya;
+  width: 75%;
+}
+.searchResults span span {
+  /* margin-left: 5%; */
+  /* background-color: red; */
+  font-size: 2rem;
+  font-weight: 800;
+}
